@@ -17,8 +17,7 @@ T get_random_int(const T &a, const T &b) {
 }
 
 
-std::tuple<std::vector<std::int64_t>, std::int64_t> run() {
-    const std::int64_t trials = 100000;
+std::tuple<std::vector<std::int64_t>, std::int64_t> run(std::int64_t trials) {
     std::vector<std::int64_t> xdata(19);
     std::int64_t acount = 0;
 
